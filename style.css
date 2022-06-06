@@ -1,0 +1,60 @@
+* {
+    font-size: small
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form {
+    width: 550px;
+}
+
+body {
+    background-color: beige;
+}
+
+form > div, fieldset . div {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+fieldset {
+    margin-right: 0;
+    margin-top: 10px;
+    background-color: white;
+}
+
+
+legend {
+    font-weight: bold;
+    font-size: medium;
+}
+
+.legenda  {
+    background-color: blanchedalmond;
+}
+
+textarea {
+    vertical-align: text-top;
+    width: 250px;
+    height: 100px;
+}
+
+label {
+    width: 100px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+label.obrigatorio {
+    color: red;
+}
+
+input[type=checkbox] {
+    margin-left: 121px;
+}
+
+.cadastro label {
+    width: 300px;
+    margin-left: 0px;
+    font-size: medium;
+}
